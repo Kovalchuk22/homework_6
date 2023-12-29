@@ -1,0 +1,26 @@
+.one {
+    width: 2500px;
+    height: 300px;
+    top: 80px;
+    background: #2F303A;
+    ;
+}
+.hhh1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Roboto;
+
+}
+button {
+    background: #2196F3;
+    color: #FFFFFF;
+    width: 300px;
+    height: 40px;
+}
+footer {
+    background: #2F303A;
+    color: #FFFFFF;
+}
+.team {
+    background: #F5F4FA;
+}
