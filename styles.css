@@ -1,26 +1,37 @@
+:root {
+    --background-colors: #2F303A;
+  }
+:root {
+    --text-color: #FFFFFF;
+}
+:root {
+    --background-color: #F5F4FA;
+  }
+:root {
+    --button-color: #2196F3;
+}
 .one {
     width: 2500px;
     height: 300px;
     top: 80px;
-    background: #2F303A;
-    ;
+    background-color: var(--background-colors) ;
 }
 .hhh1 {
     text-align: center;
-    color: #FFFFFF;
+    color: var(--text-color) ;
     font-family: Roboto;
 
 }
 button {
-    background: #2196F3;
-    color: #FFFFFF;
+    background: var(--button-color) ;
+    color: var(--text-color) ;
     width: 300px;
     height: 40px;
 }
 footer {
-    background: #2F303A;
-    color: #FFFFFF;
+    background-color: var(--background-colors) ;
+    color: var(--text-color) ;
 }
 .team {
-    background: #F5F4FA;
+    background-color: var(--background-color) ;
 }
