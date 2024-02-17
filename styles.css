@@ -35,6 +35,7 @@ footer {
 }
 ul {
   list-style: none;
+  display: flex;
 }
 .header-top {
   padding: 32px 0;
@@ -71,4 +72,10 @@ footer {
   padding: 0 15px;
   box-sizing: border-box;
   text-align: left;
+}
+.container-flex {
+  width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
 }
