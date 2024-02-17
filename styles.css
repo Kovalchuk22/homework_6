@@ -79,3 +79,10 @@ footer {
   padding: 0 15px;
   box-sizing: border-box;
 }
+li {
+  text-align: center;
+}
+.imgssa {
+  text-align: center;
+  white-space: 30px;
+}
