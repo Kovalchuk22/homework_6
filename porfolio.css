@@ -1,0 +1,134 @@
+.container-1 {
+  width: 1000px;
+  margin: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.container-1 {
+  padding-top: 94px;
+  padding-bottom: 0 0 0;
+}
+:root {
+  --background-colors: #2f303a;
+  --text-color: #ffffff;
+  --background-color: #f5f4fa;
+  --button-color: #2196f3;
+}
+.one {
+  background-color: var(--background-colors);
+}
+.hhh1 {
+  text-align: center;
+  color: var(--text-color);
+  font-family: Roboto;
+}
+button {
+  background: var(--button-color);
+  color: var(--text-color);
+  width: 300px;
+  height: 40px;
+}
+footer {
+  background-color: var(--background-colors);
+  color: var(--text-color);
+}
+.team {
+  background-color: var(--background-color);
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+a {
+  text-decoration: none;
+}
+.heder-img {
+  padding-right: 93px;
+}
+#button-top {
+  width: 73px;
+  height: 38px;
+}
+#button-top2 {
+  width: 125px;
+  height: 38px;
+}
+#button-top3 {
+  width: 112px;
+  height: 38px;
+}
+#button-top4 {
+  width: 103px;
+  height: 38px;
+}
+#button-top5 {
+  width: 130px;
+  height: 38px;
+  margin-bottom: 34px;
+}
+.button-top {
+  padding-right: 8px;
+}
+.first-imgs {
+  display: flex;
+}
+.second-imgs {
+  display: flex;
+}
+.third-imgs {
+  display: flex;
+}
+.tel-footer {
+  color: aliceblue;
+}
+.mail-footer {
+  color: aliceblue;
+}
+.container-1 {
+  padding-left: 110px;
+}
+
+.header-top {
+  padding: 32px 0;
+}
+.container-flex {
+  width: 1600px;
+  margin: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.item-head {
+  padding-right: 50px;
+}
+#header {
+  padding-left: 344px;
+}
+.item-header {
+  padding-right: 50px;
+}
+.heder-img {
+  padding-right: 93px;
+}
+
+.container-2 {
+  width: 1600px;
+  margin: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  text-align: center;
+}
+footer {
+  padding-bottom: 60px;
+}
+.container-footer {
+  width: 2300px;
+  margin: auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+  text-align: left;
+}
+.container-footer {
+  padding-top: 60px;
+}

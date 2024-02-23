@@ -1,135 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Docиment</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <img src="img/WebStudio (1).png" alt="логотип">
+    <link
+      rel="stylesheet"
+      href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesss.css" />
+    <link rel="stylesheet" href="porfolio.css" />
+  </head>
+  <body>
+    <header class="header-top">
+      <div class="container-flex">
         <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Студія</a>
-                </li>
-                <li>
-                    <a href="lesson.html">Портфоліо</a>
-                </li>
-                <li>
-                    <a href="*">Контакти</a>
-                </li>
-                <li>
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li>
-                    <a href="tel:+380961111111">+38 096 111 11 11</a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <img
+                class="heder-img"
+                src="img/WebStudio (1).png"
+                alt="логотип"
+              />
+            </li>
+            <li class="item-head">
+              <a href="index.html">Студія</a>
+            </li>
+            <li class="item-head">
+              <a href="lesson.html">Портфоліо</a>
+            </li>
+            <li class="item-head">
+              <a href="*">Контакти</a>
+            </li>
+            <li class="item-header" id="header">
+              <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item-header">
+              <a href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
         </nav>
+      </div>
     </header>
 
     <main>
-        <section>
-            <button type="button">Усі</button>
-            <button type="button">Веб-сайти</button>
-            <button type="button">Додатки</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
-        </section>
-        <section>
-            <article>
-                <figure>
-                    <img src="img/img.png" alt="/">
-                    <figcaption>
-                        <h3>Технокряк</h3>
-                        <p>Веб-сайт</p>
-                    </figcaption>
-                </figure>
+      <section>
+        <div class="container-1">
+          <button id="button-top" class="button-top" type="button">Усі</button>
+          <button id="button-top2" class="button-top" type="button">
+            Веб-сайти
+          </button>
+          <button id="button-top3" class="button-top" type="button">
+            Додатки
+          </button>
+          <button id="button-top4" class="button-top" type="button">
+            Дизайн
+          </button>
+          <button id="button-top5" class="button-top" type="button">
+            Маркетинг
+          </button>
+        </div>
+      </section>
+      <section class="main">
+        <div class="container-2">
+          <div class="first-imgs">
+            <article class="item-main">
+              <figure>
+                <img src="img/img.png" alt="/" />
+                <figcaption>
+                  <h3>Технокряк</h3>
+                  <p>Веб-сайт</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (10).png" alt="/">
-                    <figcaption>
-                        <h3>Постер New Orlean vs Golden Star</h3>
-                        <p>Дизайн</p>
-                    </figcaption>
-                </figure>
+            <article class="item-main">
+              <figure>
+                <img src="img/img (10).png" alt="/" />
+                <figcaption>
+                  <h3>Постер New Orlean vs Golden Star</h3>
+                  <p>Дизайн</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (1).png" alt="/">
-                    <figcaption>
-                        <h3>Ресторан Seafood</h3>
-                        <p>Додаток</p>
-                    </figcaption>
-                </figure>
+            <article class="item-main">
+              <figure>
+                <img src="img/img (1).png" alt="/" />
+                <figcaption>
+                  <h3>Ресторан Seafood</h3>
+                  <p>Додаток</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (2).png" alt="/">
-                    <figcaption>
-                        <h3>Проєкт Prime</h3>
-                        <p>Маркетинг</p>
-                    </figcaption>
-                </figure>
+          </div>
+
+          <div class="second-imgs">
+            <article class="item-main">
+              <figure>
+                <img src="img/img (2).png" alt="/" />
+                <figcaption>
+                  <h3>Проєкт Prime</h3>
+                  <p>Маркетинг</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (3).png" alt="/">
-                    <figcaption>
-                        <h3>Проєкт Boxes</h3>
-                        <p>Додаток</p>
-                    </figcaption>
-                </figure>
+            <article class="item-main">
+              <figure>
+                <img src="img/img (3).png" alt="/" />
+                <figcaption>
+                  <h3>Проєкт Boxes</h3>
+                  <p>Додаток</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (4).png" alt="/">
-                    <figcaption>
-                        <h3>Inspiration has no Borders</h3>
-                        <p>Веб-сайт</p>
-                    </figcaption>
-                </figure>
+            <article class="item-main">
+              <figure>
+                <img src="img/img (4).png" alt="/" />
+                <figcaption>
+                  <h3>Inspiration has no Borders</h3>
+                  <p>Веб-сайт</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (5).png" alt="/">
-                    <figcaption>
-                        <h3>Видання Limited Edition</h3>
-                        <p>Дизайн</p>
-                    </figcaption>
-                </figure>
+          </div>
+
+          <div class="third-imgs">
+            <article class="item-main">
+              <figure>
+                <img src="img/img (5).png" alt="/" />
+                <figcaption>
+                  <h3>Видання Limited Edition</h3>
+                  <p>Дизайн</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (6).png" alt="/">
-                    <figcaption>
-                        <h3>Проєкт LAB</h3>
-                        <p>Маркетинг</p>
-                    </figcaption>
-                </figure>
+            <article class="item-main">
+              <figure>
+                <img src="img/img (6).png" alt="/" />
+                <figcaption>
+                  <h3>Проєкт LAB</h3>
+                  <p>Маркетинг</p>
+                </figcaption>
+              </figure>
             </article>
-            <article>
-                <figure>
-                    <img src="img/img (7).png" alt="/">
-                    <figcaption>
-                        <h3>Growing Business</h3>
-                        <p>Додаток</p>
-                    </figcaption>
-                </figure>
+            <article class="item-main">
+              <figure>
+                <img src="img/img (7).png" alt="/" />
+                <figcaption>
+                  <h3>Growing Business</h3>
+                  <p>Додаток</p>
+                </figcaption>
+              </figure>
             </article>
-        </section>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-        <img src="img/WebStudio (1).png" alt="логотип">
-        <br>
+      <div class="container-footer">
+        <img class="img-footer" src="img/WebStudio (1).png" alt="логотип" />
+        <br />
         <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <br>
-        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <br>
-        <a href="tel:+380961111111">+38 096 111 11 11</a>
+        <br />
+        <a class="mail-footer" href="mailto:info@devstudio.com"
+          >info@devstudio.com</a
+        >
+        <br />
+        <br />
+        <a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
