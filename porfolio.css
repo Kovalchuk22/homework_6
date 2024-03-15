@@ -27,17 +27,26 @@ footer {
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 a {
   text-decoration: none;
 }
 .container {
-  width: 1300px;
+  width: 1200px;
   margin: auto;
   padding: 0 15px;
   box-sizing: border-box;
 }
+body {
+  font-family: "Roboto", sans-serif;
+}
 /* header */
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .heder-flex {
   display: flex;
   flex-direction: row;
@@ -103,13 +112,10 @@ main {
 /* main 2 */
 .itemsmains {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .item-main {
-  margin-bottom: 30px;
-  margin-right: 30px;
-}
-.item-main-1 {
   margin-bottom: 30px;
 }
 article {

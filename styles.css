@@ -1,40 +1,3 @@
-:root {
-  --background-colors: #2f303a;
-  --text-color: #ffffff;
-  --background-color: #f5f4fa;
-  --button-color: #2196f3;
-}
-.one {
-  background-color: var(--background-colors);
-  padding: 200px 0;
-}
-.hhh1 {
-  text-align: center;
-  color: var(--text-color);
-  font-family: Roboto;
-}
-button {
-  background: var(--button-color);
-  color: var(--text-color);
-  width: 300px;
-  height: 40px;
-}
-footer {
-  background-color: var(--background-colors);
-  color: var(--text-color);
-}
-.team {
-  background-color: var(--background-color);
-}
-body {
-  font-family: "Times New Roman", Times, serif;
-}
-a {
-  text-decoration: none;
-}
-ul {
-  list-style: none;
-}
 .container {
   width: 1200px;
   margin: auto;
@@ -42,6 +5,11 @@ ul {
   box-sizing: border-box;
 }
 /* header */
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .heder-flex {
   display: flex;
   flex-direction: row;
@@ -67,7 +35,13 @@ ul {
 }
 
 /* main section 1 */
-
+.list li {
+  width: 270px;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+}
 .one {
   padding: 200px 0;
   text-align: center;
@@ -115,7 +89,7 @@ button {
 }
 .team-main {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
@@ -137,4 +111,70 @@ footer {
 }
 .mail-footer {
   color: rgba(240, 248, 255, 0.693);
+}
+/* Шрифти */
+.special-item p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 170%;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --background-colors: #2f303a;
+  --text-color: #ffffff;
+  --background-color: #f5f4fa;
+  --button-color: #2196f3;
+}
+.one {
+  background-color: var(--background-colors);
+  padding: 200px 0;
+}
+.hhh1 {
+  text-align: center;
+  color: var(--text-color);
+  font-family: Roboto;
+}
+button {
+  background: var(--button-color);
+  color: var(--text-color);
+  width: 300px;
+  height: 40px;
+}
+footer {
+  background-color: var(--background-colors);
+  color: var(--text-color);
+}
+.team {
+  background-color: var(--background-color);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.special-item h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+.one button {
+  font-size: 16px;
+  font-weight: 700;
+  color: white;
+}
+
+.one h1 {
+  font-size: 44px;
+  font-weight: 900;
+  color: white;
+  line-height: 1.36;
+}
+.header-flex {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
 }
