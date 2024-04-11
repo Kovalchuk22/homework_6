@@ -37,6 +37,7 @@ a {
   margin: auto;
   padding: 0 15px;
   box-sizing: border-box;
+  min-width: 800px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -79,27 +80,27 @@ main {
 #button-top {
   width: 73px;
   height: 38px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 #button-top2 {
   width: 125px;
   height: 38px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 #button-top3 {
   width: 112px;
   height: 38px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 #button-top4 {
   width: 103px;
   height: 38px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 #button-top5 {
   width: 130px;
   height: 38px;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 .first0list {
   display: flex;
@@ -119,8 +120,7 @@ main {
   margin-bottom: 30px;
 }
 article {
-  border: solid 1px rgb(195, 194, 194);
-  width: 370px;
+  box-shadow: 1px 3px 9px #d7d7d7;
 }
 figure {
   padding: 0;
@@ -135,4 +135,22 @@ footer {
 }
 .mail-footer {
   color: rgba(240, 248, 255, 0.693);
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 60px;
+  margin: 0;
+}
+.item-main {
+  flex-basis: calc((100% - 60px)/4);
+  padding: auto;
+}
+.card-sett {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 0;
+  gap: 60px;
+  margin: 0;
 }
