@@ -68,22 +68,22 @@ button {
   justify-content: space-between;
 }
 #special-item1::before {
-  content: url(/img/group1.jpg);
+  content: url(img/group1.jpg);
   width: 270px;
   height: 120px;
 }
 #special-item2::before {
-  content: url(/img/group4.jpg);
+  content: url(img/group4.jpg);
   width: 270px;
   height: 120px;
 }
 #special-item3::before {
-  content: url(/img/group3.jpg);
+  content: url(img/group3.jpg);
   width: 270px;
   height: 120px;
 }
 #special-item4::before {
-  content: url(/img/group2.jpg);
+  content: url(img/group2.jpg);
   width: 270px;
   height: 120px;
 }
