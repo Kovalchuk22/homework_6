@@ -120,7 +120,8 @@ main {
   margin-bottom: 30px;
 }
 article {
-  box-shadow: 1px 3px 9px #d7d7d7;
+  border: 1px solid #eee;
+  border-top: none;
 }
 figure {
   padding: 0;
@@ -153,4 +154,52 @@ footer {
   padding: 0;
   gap: 60px;
   margin: 0;
+}
+article:hover {
+  box-shadow: 3px 1px 10px grey;
+}
+figcaption {
+  padding-left: 20px;
+}
+.button-top, .button-dfdfdfd {
+  border: none;
+  background: #f5f4f8;
+  color: black;
+  font-size: 17px;
+  border-radius: 1px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.button-top:hover, .button-dfdfdfd:hover {
+  background-color: #2196F3;
+  color: #eee;
+  font-weight: 500;
+  box-shadow: 1px 2px 5px gray;
+}
+p {
+  color: rgba(0, 0, 0, 0.595);
+}
+.v {
+  color:#FFFFFF;
+  margin: 0;
+  margin-top: 20px;
+}
+.top-itm {
+  color: #000000;
+  font-weight: 500;
+}
+.header-top {
+  border-bottom: 1px solid #ECECEC;
+}
+.maiss {
+  color: #757575cf;
+  font-weight: 500;
+}
+.tell {
+  color: #757575;
+  font-weight: 500;
+}
+.top-itm:hover, .maiss:hover, .tell:hover {
+  color: #2196F3;
+  font-weight: 500;
 }
