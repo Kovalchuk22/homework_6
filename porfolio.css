@@ -114,10 +114,10 @@ main {
 .itemsmains {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 25px;
 }
 .item-main {
-  margin-bottom: 30px;
+  flex-basis: calc((100% - 2400px) / 3);
 }
 article {
   border: 1px solid #eee;
@@ -136,24 +136,6 @@ footer {
 }
 .mail-footer {
   color: rgba(240, 248, 255, 0.693);
-}
-.card-set {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0;
-  gap: 60px;
-  margin: 0;
-}
-.item-main {
-  flex-basis: calc((100% - 60px)/4);
-  padding: auto;
-}
-.card-sett {
-  display: flex;
-  flex-wrap: nowrap;
-  padding: 0;
-  gap: 60px;
-  margin: 0;
 }
 article:hover {
   box-shadow: 3px 1px 10px grey;
@@ -202,4 +184,7 @@ p {
 .top-itm:hover, .maiss:hover, .tell:hover {
   color: #2196F3;
   font-weight: 500;
+}
+.v:hover, .mail-footer:hover, .tel-footer:hover {
+  color: #2196F3;
 }
