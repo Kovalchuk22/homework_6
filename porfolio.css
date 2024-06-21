@@ -188,3 +188,62 @@ p {
 .v:hover, .mail-footer:hover, .tel-footer:hover {
   color: #2196F3;
 }
+.insta0:hover .insta1 {
+  fill: #2196f3;
+}
+.insta0:hover .insta2 {
+  fill: #ffffff;
+}
+.insta0:hover .insta3 {
+  fill: #ffffff;
+}
+.insta0:hover .insta4 {
+  fill: #ffffff;
+}
+
+.twitter0:hover .twitter1 {
+  fill: #2196f3;
+}
+.twitter0:hover .twitter2 {
+  fill: #ffffff;
+}
+
+.face0:hover .face1 {
+  fill: #2196f3;
+}
+.face0:hover .face2 {
+  fill: #ffffff;
+}
+
+.in0:hover .in1 {
+  fill: #2196f3;
+}
+.in0:hover .in2 {
+  fill: #ffffff;
+}
+.in0:hover .in3 {
+  fill: #ffffff;
+}
+.section-last100klient-box-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+.footer-flex-box-1 {
+  display: flex;
+}
+.fotero-1 {
+  padding-right: 70px;
+}
+.join-footer {
+font-size: 18px;
+font-weight: 400;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+margin-top: 0px;
+color: #ffffff;
+}
+#header {
+  padding-left: 295px;
+}

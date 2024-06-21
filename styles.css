@@ -29,7 +29,7 @@
   padding-right: 50px;
 }
 #header {
-  padding-left: 304px;
+  padding-left: 295px;
 }
 .item-header {
   padding-right: 50px;
@@ -273,4 +273,134 @@ figcaption {
 }
 .v:hover, .mail-footer:hover, .tel-footer:hover {
   color: #2196F3;
+}
+.insta0:hover .insta1 {
+  fill: #2196f3;
+}
+.insta0:hover .insta2 {
+  fill: #ffffff;
+}
+.insta0:hover .insta3 {
+  fill: #ffffff;
+}
+.insta0:hover .insta4 {
+  fill: #ffffff;
+}
+
+.twitter0:hover .twitter1 {
+  fill: #2196f3;
+}
+.twitter0:hover .twitter2 {
+  fill: #ffffff;
+}
+
+.face0:hover .face1 {
+  fill: #2196f3;
+}
+.face0:hover .face2 {
+  fill: #ffffff;
+}
+
+.in0:hover .in1 {
+  fill: #2196f3;
+}
+.in0:hover .in2 {
+  fill: #ffffff;
+}
+.in0:hover .in3 {
+  fill: #ffffff;
+}
+
+.kliant00:hover .kliant02 {
+  fill: #2196f3;
+}
+.kliant00:hover .kliant01 {
+  stroke:#2196f3;
+}
+
+.kliant10:hover .kliant11 {
+  fill:#2196f3;
+}
+.kliant10:hover .kliant12 {
+  fill:#2196f3;
+}
+.kliant10:hover .kliant13 {
+  stroke: #2196f3;
+}
+
+.kliant20:hover .kliant21 {
+  stroke: #2196f3;
+}
+.kliant20:hover .kliant22 {
+  fill: #2196f3;
+}
+.kliant20:hover .kliant23 {
+  fill: #2196f3;
+}
+.kliant20:hover .kliant24 {
+  fill: #2196f3;
+}
+
+.kliant31 {
+  stroke: #AFB1B8;
+}
+.kliant32 {
+  fill: #AFB1B8;
+}
+.kliant30:hover .kliant31 {
+  stroke: #2196f3;
+}
+.kliant30:hover .kliant32 {
+  fill: #2196f3;
+}
+
+.kliant40:hover .kliant41 {
+  stroke: #2196f3;
+}
+.kliant40:hover .kliant42 {
+  fill: #2196f3;
+}
+.kliant40:hover .kliant43 {
+  fill: #2196f3;
+}
+.kliant40:hover .kliant44 {
+  fill: #2196f3;
+}
+
+.klient-section-text {
+  padding-top: 94px;
+  font-weight: 900px;
+  font-size: 36px;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.section-last100klient-box-item {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 94px;
+}
+.footer-flex-box-1 {
+  display: flex;
+}
+.fotero-1 {
+  padding-right: 70px;
+}
+.join-footer {
+font-size: 18px;
+font-weight: 400;
+line-height: 16.41px;
+letter-spacing: 0.03em;
+text-align: left;
+margin-top: 0px;
+}
+.item-header:hover .fone-1header2 {
+  fill: #2196f3;
+}
+
+.item-header:hover .email-1header1 {
+  fill: #2196f3;
+}
+.email-item-hedera:hover .email-1header1 {
+  fill: #2196f3;
 }
