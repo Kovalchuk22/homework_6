@@ -394,13 +394,32 @@ letter-spacing: 0.03em;
 text-align: left;
 margin-top: 0px;
 }
+
+.fone-1header2 {
+  fill: #757575; 
+}
+.maiss {
+  fill: #757575; 
+  text-decoration: none; 
+}
 .item-header:hover .fone-1header2 {
   fill: #2196f3;
 }
+.item-header:hover .maiss {
+  color: #2196f3; 
+}
 
-.item-header:hover .email-1header1 {
+.email-1header1, .email-1header2 {
+  fill: #757575;
+}
+.tell {
+  fill: #757575;
+  text-decoration: none;
+}
+  .email-item-hedera:hover .email-1header1, 
+  .email-item-hedera:hover .email-1header2 {
   fill: #2196f3;
 }
-.email-item-hedera:hover .email-1header1 {
-  fill: #2196f3;
+.email-item-hedera:hover .tell {
+  color: #2196f3;
 }
