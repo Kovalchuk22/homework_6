@@ -409,17 +409,29 @@ margin-top: 0px;
   color: #2196f3; 
 }
 
-.email-1header1, .email-1header2 {
-  fill: #757575;
+.teamss-text {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
-.tell {
-  fill: #757575;
-  text-decoration: none;
+
+.item {
+  position: relative;
 }
-  .email-item-hedera:hover .email-1header1, 
-  .email-item-hedera:hover .email-1header2 {
-  fill: #2196f3;
+
+.description {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2f303ac4;
+  color: white;
+  font-size: 20px;
+  padding: 10px 0;
+  text-align: center;
 }
-.email-item-hedera:hover .tell {
-  color: #2196f3;
+.it-s3-or4-i-forgot {
+  font-size: 14px;
+}
+.item {
+  height: 294px;
 }
