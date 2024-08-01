@@ -435,3 +435,244 @@ margin-top: 0px;
 .item {
   height: 294px;
 }
+
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  }
+  .backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+  }
+  .no-scroll {
+  overflow: hidden;
+  }
+  .modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 528px;
+  height: 581px;
+  border-radius: 4px 0px 0px 0px;
+  background-color: rgb(255, 255, 255);
+  transform: translate(-50%, -50%);
+  transition: opacity 500ms cubic-bezier(0.83, -0.08, 0.32, 1) ;
+  z-index: 2;
+  }
+.bozx {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bozx .button {
+  margin: 0; 
+}
+
+
+
+.lesssw {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23.44px;
+  letter-spacing: 0.03em;
+  text-align: center;  
+}
+.sssssssss {
+  display: grid;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.iteam-form-s {
+  text-align: left;
+  margin: 0;
+}
+.label-text-form {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  font-weight: 400;
+  color: #646363;
+  margin-bottom: 4px;
+}
+.iteam-form-input {
+  border: 2px solid #21212133;
+  width: 400px;
+  height: 40px;
+  border: 1px 0px 0px 0px;
+  margin-bottom: 10px;
+}
+.iteam-form-inputs {
+  width: 400px;
+  height: 120px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  border: 2px solid #21212133;
+  margin-bottom: 20px;
+}
+.checkbox121 {
+  width: 16px;
+  height: 15px;
+  top: 663px;
+  left: 588px;
+  gap: 0px;
+  opacity: 0px;
+  border: #000000;
+  margin-right: 8px;
+}
+.sss {
+  text-decoration: underline;
+  color: #2b9af3;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  align-items: center;
+}
+.ss3ws {
+  color: #757575;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+.iteam-form-ss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+}
+.btn {
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  border-radius: 4px 0px 0px 0px;
+  border: none;
+}
+.sdscwc {
+  text-align: center;
+}
+.iteam-form-input:link {
+  border: 2px solid #58b0f6;
+  border-radius: 1px 0px 0px 0px;
+
+}
+.iteam-form-inputs {
+font-size: 12px;
+font-weight: 400;
+line-height: 14.06px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #75757580;
+padding: 15px;
+resize: none;
+width: 400px;
+height: 100px;
+}
+.iteam-form-input:focus-within {
+border: 2px solid #58b0f6;
+}
+
+.poshiows {
+  position: relative;
+}
+.ssssq {
+  position: absolute; 
+  top: 50%; 
+  left: 10px; 
+  transform: translateY(-70%);
+}
+.iteam-form-input {
+  outline: 0;
+  padding-left: 40px;
+  border-radius: 3px;
+}
+.iteam-form-inputs {
+  width: 410px;
+  border-radius: 3px;
+}
+.iteam-form-inputs:focus-within {
+  border: 2px solid #2196f3;
+  outline: 0;
+}
+.iteam-form-input:focus-within + .ssssq .sss12 {
+  fill: #2196f3;
+}
+.sss {
+  padding-left: 5px;
+}
+.svg12gscs {
+  text-align: right;
+  margin-right: 8px;
+  padding-top: 8px;
+}
+
+.modal {
+  border-radius: 6px;
+}
+.btm_box-n {
+  padding-bottom: 40px;
+}
+.iteam-form-inputs {
+  height: 90px;
+}
+.lesssw {
+  margin: 0;
+  padding-bottom: 12px;
+}
+.svg12gscs:hover  .pathss21 {
+  fill: #2196F3;
+}
+.subscraib {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-top: 0px;
+}
+.navisdscdsa {
+  padding-left: 93px;
+}
+.ddnavil {
+   display: flex;
+}
+
+.subscription-input {
+  padding-left: 12px;
+  font-size: 16px;
+  border: 1px solid #6c6d74;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #2f303a;
+  width: 358px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+
+.subscription-button {
+  margin-top: 20px;
+  width: 200px;
+  height: 52px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #1e90ff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subscription-button svg {
+  margin-left: 10px;
+}
+.but-fn {
+  padding-left: 12px;
+}
