@@ -394,6 +394,7 @@ color: #ffffff;
   height: 5px;
   position: absolute;
   bottom: -31px;
+  border-radius: 3px;
   background: #36a0f2;
   transition: 0.5s transform ease;
   transform: scale3d(0,1,1);
@@ -451,4 +452,10 @@ line-height: 28px;
 letter-spacing: 0.03em;
 text-align: left;
 
+}
+.menu a.active1 {
+  color: #2196f3; 
+}
+.menu a.active1::before {
+  transform: scale3d(1, 1, 1);
 }

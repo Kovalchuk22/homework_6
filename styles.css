@@ -765,6 +765,7 @@ height: 100px;
   position: absolute;
   bottom: -31px;
   background: #36a0f2;
+  border-radius: 3px;
   transition: 0.5s transform ease;
   transform: scale3d(0,1,1);
 }
@@ -804,4 +805,11 @@ fill: #2196f3;
 }
 .email-item-hedera:hover .tell {
   color: #2196f3;
+}
+
+.menu a.active {
+  color: #2196f3; 
+}
+.menu a.active::before {
+  transform: scale3d(1, 1, 1); 
 }
