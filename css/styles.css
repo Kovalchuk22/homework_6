@@ -83,25 +83,25 @@ button {
 }
 
 #special-item1::before {
-  content: url(/img/group1.jpg);
+  content: url(img/group1.jpg);
   width: 270px;
   height: 120px;
 }
 
 #special-item2::before {
-  content: url(/img/group4.jpg);
+  content: url(img/group4.jpg);
   width: 270px;
   height: 120px;
 }
 
 #special-item3::before {
-  content: url(/img/group3.jpg);
+  content: url(img/group3.jpg);
   width: 270px;
   height: 120px;
 }
 
 #special-item4::before {
-  content: url(/img/group2.jpg);
+  content: url(img/group2.jpg);
   width: 270px;
   height: 120px;
 }
@@ -237,7 +237,7 @@ ul {
 }
 
 .one {
-  background-image: url(/img/foto12.jpg);
+  background-image: url(img/foto12.jpg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 1600px 570px;
@@ -312,7 +312,7 @@ figcaption {
 }
 
 .one {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/img/foto12.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(img/foto12.jpg);
   background-size: cover;
 }
 
