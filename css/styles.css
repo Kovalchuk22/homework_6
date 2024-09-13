@@ -90,19 +90,22 @@ button {
 }
 
 #special-item2::before {
-  content: url(./img/group4.jpg);
+  content: url(/img/group4.jpg);
+  display: block; 
   width: 270px;
   height: 120px;
 }
 
 #special-item3::before {
   content: url(/img/group3.jpg);
+  display: block; 
   width: 270px;
   height: 120px;
 }
 
 #special-item4::before {
   content: url(/img/group2.jpg);
+  display: block; 
   width: 270px;
   height: 120px;
 }
