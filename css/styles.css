@@ -84,12 +84,13 @@ button {
 
 #special-item1::before {
   content: url(/img/group1.jpg);
+  display: block; 
   width: 270px;
   height: 120px;
 }
 
 #special-item2::before {
-  content: url(/img/group4.jpg);
+  content: url(./img/group4.jpg);
   width: 270px;
   height: 120px;
 }
